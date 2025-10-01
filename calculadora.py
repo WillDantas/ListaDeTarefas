@@ -18,3 +18,5 @@ while True:
         resultado = num1 * num2
     else:
         print('Operação não reconhecida!')
+
+    print('{} {} {} = {}'.format(num1, num2, op, resultado))
